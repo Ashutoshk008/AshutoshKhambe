@@ -1,0 +1,118 @@
+/* styles.css */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff9f4;
+  color: #333;
+}
+
+.header {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.header .subtitle {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.header .btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  color: white;
+  background: #004e92;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header .btn:hover {
+  background: #60efff;
+  transform: scale(1.1);
+}
+
+.navbar {
+  background: #feb47b;
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #ff7e5f;
+}
+
+.section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.section:hover {
+  transform: scale(1.03);
+}
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  flex: 1 1 calc(50% - 20px);
+  background: #fff3e6;
+  padding: 15px;
+  border: 1px solid #feb47b;
+  border-radius: 10px;
+  transition: transform 0.3s ease, background 0.3s;
+}
+
+.card:hover {
+  background: #fff1de;
+  transform: translateY(-10px);
+}
+
+.skills-list li,
+.languages li {
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #ff7e5f;
+  color: white;
+}
